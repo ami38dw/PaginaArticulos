@@ -1,0 +1,208 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+a:link {
+    color: rgb(0, 0, 0);
+    font-style: italic;
+    text-decoration: none;
+    font-size: 30px;
+}
+a:visited{
+    color: black;
+}
+a:active{
+    font-size: 35px;
+}
+
+.index{
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(55, 207, 164, 0.212);
+    box-sizing: border-box;
+}
+
+.header{
+    width: 100%;
+    height: 650px;
+    margin-top: 0px;
+    box-sizing: border-box;
+}
+
+.headerImg{
+    width: 100%;
+    height: auto;
+    margin-top: 0px;
+    box-sizing: border-box;
+}
+
+.navOP{
+    width: 100%;
+    height: 50px;
+    margin: 0px;
+    padding-left: 130px;
+    padding-right: 100px;
+    background-color: rgb(69, 104, 200);
+    color: white;
+    z-index: 10;
+    position: sticky;
+    top: 0px;
+    box-sizing: border-box;
+}
+.OptionNav{
+    width: 20%;
+    height: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 5%;
+    font-family:'Times New Roman';
+    font-size: 30px;
+    font-weight: 800;
+    font-style: italic;
+    color: black;
+    float: left;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.OptionNav:hover{
+    background-color: rgba(96, 160, 212, 0.287);
+    font-weight:900;
+}
+
+.title{
+    width: 90%;
+    height: auto;
+    margin-top: -170px;
+    padding: 10px;
+    font-size: 70px;
+    font-family: 'Lucida Handwriting';
+    font-weight: 900;
+    color: rgb(5, 3, 85);
+    background-color: rgb(133, 107, 218);
+    z-index: 5;
+    box-sizing: border-box;
+}
+.titleDc{
+    width: 50%;
+    height: auto;
+    margin-left: 45%;
+    margin-bottom: 30px;
+    z-index: 4;
+    font-size: 35px;
+    font-family: 'Lucida Sans Regular';
+    color: rgb(5, 3, 85);
+    box-sizing: border-box;
+}
+
+
+.bxartc{
+    width: 70%;
+    height: auto;
+    margin-left: 30%;
+    margin-right: 10%;
+    margin-top: 50px;
+    box-sizing: border-box;
+}
+
+.artc{
+    width: 90%;
+    height: auto;
+    margin-top: 30px;
+    padding-top: 20px;
+    padding: 15px;
+    background-color: rgba(108, 132, 199, 0.185);
+    border: 2px solid rgb(73, 73, 73);
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+.titleArtc{
+    width: 100%;
+    height: 40px;
+    margin-left: 40px;
+    font-size: 40px;
+    font-weight: 500;
+    font-style: italic;
+    font-family: monospace;
+    box-sizing: border-box;
+}
+.detailArtc{
+    width: 100%;
+    height: auto;
+    margin: 10px;
+    padding: 5px;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+
+.asd{
+    width: 25%;
+    height: auto;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-bottom: 90px;
+    padding: 10px;
+    float: left;
+    position: sticky;
+    top: 20px;
+    border: 2px solid rgb(68, 68, 68);
+    border-radius: 15px;
+    background-color: rgba(128, 128, 228, 0.329);
+    box-sizing: border-box;
+}
+
+.asdTitle{
+    width: 100%;
+    height: 30px;
+    margin-left: 10px;
+    padding: 0px;
+    font-weight: 700;
+    font-size: 40px;
+    box-sizing: border-box;
+}
+.asdLink{
+    width: 100%;
+    height: auto;
+    margin-left: 50px;
+    margin-top: 30px;
+    padding: 0px;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+
+.footer{
+    width: 100%;
+    height: 60px;
+    margin-top: 30px;
+    box-sizing: border-box;
+}
+
+.footerImg{
+    width: 100%;
+    height: 600px;
+    margin-bottom: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navBt{
+    width: 100%;
+    height: 50px;
+    margin: 0px;
+    padding-left: 130px;
+    padding-right: 100px;
+    background-color: rgb(69, 104, 200);
+    z-index: 10;
+    position: sticky;
+    bottom: 0px;
+    box-sizing: border-box;
+}
